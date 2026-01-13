@@ -1,0 +1,108 @@
+
+/* TIPOGRAFÍA GLOBAL    */
+
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fcfcfd;              /* Color del texto */
+    background-color: #0d0d0d;   /* Fondo oscuro elegante */
+    margin: 100;
+    padding: 0;
+    line-height: 1.7;
+}
+
+
+/* NAVBAR               */
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 15px 30px;
+    background: rgb(247, 74, 5);
+    margin: 0;
+}
+
+.navbar button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #000000; /* Rojo Phoenix */
+}
+
+.navbar a:active {
+    color: #dbff0c; /* Rojo Phoenix */
+}
+
+/* TITULOS              */
+
+
+h1, h2, h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #c60707;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #0d0d0d4f;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #e65f5f;
+    background-color: #0d0d0d6b;
+}
+
+h3 {
+    font-size: 1,5rem;
+    color: #ff3c00;
+    background-color: #00000091;
+}
+
+
+/* PÁRRAFOS             */
+
+
+p .cuadrado {
+    border: radius 10px; ;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 20px;
+    background-color: #03030300;
+    /* Efecto suave en lectura */
+    color: #d30000;
+}
+.overlay-texto {
+  background-color: rgba(253, 30, 1, 0.534); /* fondo semitransparente */
+  padding: 20px; /* un poco de espacio interno */
+  border-radius: 15px; /* aquí redondeas las esquinas */
+}
+
+
+
+/* -------------------- */
+/* EFECTO HERO          */
+/* -------------------- */
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
