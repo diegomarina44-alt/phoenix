@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Phoenix</title>
+      
+</head>
+<link rel="stylesheet" href="style2.css">
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <button><a href="./biografia.html">Biografía</a></button>
+            <button><a href="./misiones.html">Misiones</a></button>
+            <button><a href="./index.html">Inicio</a></button>
+        </ul>
+    </nav>
+
+   <form action="#" method="post">
+  <h2>Escribe a Phoenix</h2>
+
+  <!-- Nombre -->
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" value="fenix" placeholder="CUAL ES TU NOMBRE" required><br><br>
+
+  <!-- Email -->
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <!-- Radio: fan o enemigo -->
+  <p>¿Eres fan o enemigo?</p>
+  <label>
+    <input type="radio" name="Fan" value="fan" required checked>
+    Fan
+  </label>
+  <label>
+    <input type="radio" name="Fan" value="enemigo">
+    Enemigo
+  </label>
+  <br><br>
+
+  <!-- Select de ciudad -->
+  <label for="ciudad">Ciudad:</label><br>
+  <select id="ciudad" name="ciudad" required>
+    <option value="">Selecciona tu ciudad</option>
+    <option value="Nueva York">Nueva York</option>
+    <option value="Madrid" selected>Madrid</option>
+    <option value="Ciudad de México">Ciudad de México</option>
+    <option value="Buenos Aires">Buenos Aires</option>
+    <option value="Barcelona">Barcelona</option>
+  </select>
+  <br><br>
+
+  <!-- Checkbox de suscripción -->
+  <label>
+    <input type="checkbox" name="suscripcion">
+    Deseo recibir actualizaciones de Fénix
+  </label>
+  <br><br>
+
+  <!-- Textarea -->
+  <label for="mensaje">Mensaje para Fénix:</label><br>
+  <textarea id="mensaje"  name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí..." required></textarea>
+  <br><br>
+
+  <!-- Botón de envío -->
+  <button type="submit">Enviar mensaje</button>
+</form>
